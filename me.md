@@ -5,6 +5,7 @@ description:Hello.
 keywords: 七言千,python,linux,github,blog
 ---
 
-About me
----------------------
-Hello，I am Qian.
+<div id="home">
+<strong>About me:</strong><br>
+Hi,I am Qian.<br>
+<br>
