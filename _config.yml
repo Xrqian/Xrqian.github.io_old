@@ -1,0 +1,16 @@
+baseurl:     /
+url:         http://localhost:4000
+source:      .
+destination: ./_site
+encoding:    utf-8
+permalink:   /:title
+highlighter: pygments
+markdown:    rdiscount
+
+#Basic Configuration
+title:       qian | monkey
+subTitle:    Everything will be ok.
+description: Hello.
+
+author:      
+  name: 七言千
