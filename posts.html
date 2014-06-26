@@ -23,15 +23,15 @@ keywords: 七言千,python,linux,github,blog
 			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
-	<h1 id="sicily">Notes</h1>
+	<h1 id="sicily">Others</h1>
 	<ul class="posts">
-		{% for post in site.tags.notes %}
+		{% for post in site.tags.Others %}
 			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
-	<h1 id="ds">Others</h1>
+	<h1 id="ds">DailyLife</h1>
 	<ul class="posts">
-		{% for post in site.tags.others %}
+		{% for post in site.tags.life %}
 			<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
 		{% endfor %}
 	</ul>
