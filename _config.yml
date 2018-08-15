@@ -14,3 +14,5 @@ description: Hello.
 
 author:      
   name: 七言千
+
+theme: jekyll-theme-architect
